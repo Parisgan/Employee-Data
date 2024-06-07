@@ -1,0 +1,34 @@
+﻿body {
+    background-color:#e8e8e8;
+    font-family: Arial, sans-serif;
+}   
+h1{
+    text-align:center;
+}
+/* gia to dropdownlist  */
+.dropdown-list {
+    display: block;
+    margin: 20px auto;
+    font-size: 16px;
+    width: 30%;
+    text-align:center;
+}
+/* gia to gridview*/
+.gridview {
+
+    width: 50%; 
+    margin: 20px auto;
+    
+}
+
+.gridview th {
+        background-color: #6e7bd9;
+        color:white;
+}
+/*xrwmata twn seirwn gia na ksexwrizoun (mona-ziga)*/
+tr:nth-child(even) {
+    background: #f8f7ff
+}
+tr:nth-child(odd) {
+    background: #fff;
+}
